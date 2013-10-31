@@ -10,10 +10,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/hello")
 
 public class HelloController {
-//    private @Value("hello.string") String propertyField;
+    @Value("${hello.string}")
+    private String propertyField;
 	@RequestMapping(method = RequestMethod.GET)
 	public String printWelcome(ModelMap model) {
-		model.addAttribute("message", "Hello world!");
+		model.addAttribute("message", propertyField);
 		return "hello";
 	}
 }
