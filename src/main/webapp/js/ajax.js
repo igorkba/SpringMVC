@@ -16,7 +16,7 @@ $(document).ready(function(){
 //            cache: false,
             dataType: "json",
             success: function (data) {
-                $(".span").text(data.id);
+                $(".span").text(data.ok);
             },
             error: function () {
                 alert('big error');

@@ -1,1 +1,1 @@
-<div><b>HTML Ajax</b></div>
+<span><b>HTML Ajax</b></span>
