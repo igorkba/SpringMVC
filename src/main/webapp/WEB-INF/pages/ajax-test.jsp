@@ -18,7 +18,9 @@
 </head>
 <body>
 <input type="text" class="input" />
-<button class="button">Test ajax</button>
+<button class="button1">Test ajax</button>
 <span class="span"></span>
+<p><button class="button2">Test ajax</button></p>
+<div class="ajax_html">toto sa zmeni</div>
 </body>
 </html>

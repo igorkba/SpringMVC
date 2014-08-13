@@ -7,7 +7,7 @@
  */
 
 $(document).ready(function(){
-    $('.button').click(function() {
+    $('.button1').click(function() {
         var val = $(".input").val();
         $.ajax({
             type: "POST",
