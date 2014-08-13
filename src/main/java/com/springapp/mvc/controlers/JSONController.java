@@ -30,16 +30,11 @@ public class JSONController {
         return "ajax-test";
     }
 
-    @RequestMapping(value="/ajaxHTML", method = RequestMethod.POST)
+    @RequestMapping(value="/ajaxHTML", method = RequestMethod.GET)
 
-    @ResponseBody
-    public String ajaxHTML(@RequestParam String id) throws JSONException {
-//        JSONObject userJSON = new JSONObject();
-//        userJSON.put("id", id);
-//        userJSON.put("ok", true);
-//        userJSON.put("bad", 1);
+//    @ResponseBody
+    public String ajaxHTML(){
         return "ajax-test_html";
-        //return ("{\"id\":\"id\"}");
     }
 
 }
