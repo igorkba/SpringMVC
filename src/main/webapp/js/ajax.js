@@ -15,8 +15,8 @@ $(document).ready(function(){
             data: { id: val },
 //            cache: false,
             dataType: "json",
-            success: function (data) {
-                $(".span").text(data.ok);
+            success: function (response) {
+                $(".span").text(response.ok);
             },
             error: function () {
                 alert('big error');
